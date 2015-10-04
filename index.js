@@ -12,7 +12,7 @@ module.exports = require("lib.Controller").extend("I18nextController", {
     var self = this;
     i18n.init(this.config || {}, function(err, t){
       if(err) return cb(err);
-      require("app").set("t", t);
+      self.app.set("t", t);
       cb();
       self.trigger("init");
     });
