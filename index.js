@@ -7,7 +7,6 @@ module.exports = require("lib.Controller").extend("I18nextController", {
     i18n: i18n
   },
 
-
   init: function(options, cb){
     var self = this;
     i18n.init(this.config || {}, function(err, t){

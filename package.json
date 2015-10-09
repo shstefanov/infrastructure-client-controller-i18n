@@ -7,9 +7,6 @@
     "email": "s.h.stefanov@mail.bg"
   },
   "dependencies": {
-    "i18next-client": "latest",
-    "bulkify": "latest",
-    "source-map-loader": "^0.1.5",
-    "transform-loader": "^0.2.3"
+    "i18next-client": "latest"
   }
 }
